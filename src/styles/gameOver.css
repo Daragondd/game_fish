@@ -1,0 +1,65 @@
+.gameOver-screen{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.gameOver-screen__body{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.gameOver-screen__text{
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 5%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gameOver-screen__table{
+    border-color: black;
+    border-style:solid;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size:20px;
+    text-align: center;
+    width: 70%;
+}
+
+.gameOver-screen__thead{
+    background:#5793c5;    
+}
+
+.gameOver-screen__head{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gameOver-screen__body{
+    font-weight: normal;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+.game-screen__button-again{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    border: none;
+    padding: 10px;
+    height: 100px;
+    width: 50px;
+    cursor: pointer;
+    background: url('./refresh.png') no-repeat center / contain;
+}
+
+.gameOver-screen__this{
+    background:#8f05f8;
+    color: white;
+}
